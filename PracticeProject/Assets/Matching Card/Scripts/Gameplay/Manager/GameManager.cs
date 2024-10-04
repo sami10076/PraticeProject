@@ -19,21 +19,22 @@ namespace CardMatch_Gameplay
 
     public class GameManager : MonoBehaviour
     {
+        #region Variables
         public GAMESTATES state = GAMESTATES.NONE;
 
-        public static GameManager Instance = null;
-        public CardManager cardManager = null;
-        public ScoreManager scoreManager = null;
-        public GridLayoutGroup grid = null;
-
-
+        private int currentGridSize = 0;
         private int FirstInputCard = -1;
         private int SecondInputCard = -1;
 
         private bool hasMadeFirstMatch = false;
 
+        public static GameManager Instance = null;
+        public CardManager cardManager = null;
+        public ScoreManager scoreManager = null;
+        public GridLayoutGroup grid = null;
+        #endregion
 
-        #region state
+        #region State
         public void doChangeState(GAMESTATES target)
         {
 
@@ -47,7 +48,8 @@ namespace CardMatch_Gameplay
             {
                 case GAMESTATES.START:
                     grid.enabled = true;
-                    cardManager.setupCard(GetRandomEvenNumber());
+                    currentGridSize = RandomEvenNumberGenerator.GetRandomEvenNumber();
+                    cardManager.setupCard(currentGridSize);
                     doChangeState(GAMESTATES.READYFORINPUT);
                     state = target;
                     break;
@@ -118,7 +120,7 @@ namespace CardMatch_Gameplay
         }
         #endregion
 
-
+        #region Events
         public void onCardInput(int cardNumber) {
             if (state == GAMESTATES.DECISION) {
                 return;
@@ -139,27 +141,6 @@ namespace CardMatch_Gameplay
             }
 
         }
-
-        private int lastEvenNumber = -1; // Store the last generated even number
-
-        // Function to return a random even number between 6 and 30, avoiding consecutive repeats
-        public int GetRandomEvenNumber()
-        {
-            int newEvenNumber;
-
-            // Repeat until a new number different from the last one is generated
-            do
-            {
-                int randomBase = Random.Range(3, 16);
-                newEvenNumber = randomBase * 2;
-            } while (newEvenNumber == lastEvenNumber);
-
-            // Update the last generated number
-            lastEvenNumber = newEvenNumber;
-
-            return newEvenNumber;
-        }
-
         void checkGameOver() {
             if (!cardManager.isCardAvaiable())
             {
@@ -167,6 +148,7 @@ namespace CardMatch_Gameplay
                 doChangeState(GAMESTATES.START);
             }
         }
+        #endregion
 
         private void Awake()
         {
