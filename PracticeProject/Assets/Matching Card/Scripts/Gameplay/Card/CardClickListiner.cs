@@ -11,7 +11,7 @@ namespace CardMatch_Gameplay{
 
         public Sprite CardSprite = null;
 
-        private CardState cardState = CardState.CLOSE;
+        public CardState cardState = CardState.CLOSE;
 
         private void OnEnable()
         {
@@ -41,12 +41,15 @@ namespace CardMatch_Gameplay{
         public void resetCard() {
             Invoke("doRest",1);
         }
-        private void doRest() {
-            if (cardImage != null && cardBlooker != null && CardSprite != null)
+        public void doRest() {
+            if (cardImage != null && cardBlooker != null )
             {
                 cardBlooker.SetActive(true);
                 cardState = CardState.CLOSE;
-                cardImage.GetComponent<Image>().sprite = CardSprite;
+                if (CardSprite != null)
+                {
+                    cardImage.GetComponent<Image>().sprite = CardSprite;
+                }
             }
         }
         public void openCard() {

@@ -9,6 +9,7 @@ namespace CardMatch_Gameplay
     {
         NONE,
         START,
+        SHOWALL,
         READYFORINPUT,
         FIRSTINPUT,
         SECONDINPUT,
@@ -22,7 +23,7 @@ namespace CardMatch_Gameplay
         #region Variables
         public GAMESTATES state = GAMESTATES.NONE;
 
-        private int currentGridSize = 0;
+        public int currentGridSize = 0;
         private int FirstInputCard = -1;
         private int SecondInputCard = -1;
 
@@ -32,6 +33,7 @@ namespace CardMatch_Gameplay
         public CardManager cardManager = null;
         public ScoreManager scoreManager = null;
         public GridLayoutGroup grid = null;
+        public InventoryManager inventoryManager = null;
         #endregion
 
         #region State
@@ -48,10 +50,38 @@ namespace CardMatch_Gameplay
             {
                 case GAMESTATES.START:
                     grid.enabled = true;
-                    currentGridSize = RandomEvenNumberGenerator.GetRandomEvenNumber();
-                    cardManager.setupCard(currentGridSize);
+                    foreach (var item in cardManager.cards)
+                    {
+                        item.doRest();
+                    }
+                    if (inventoryManager.hasPrefValue())
+                    {
+                        inventoryManager.setupPrefInventory();
+                    }
+                    else
+                    {
+                        currentGridSize = RandomEvenNumberGenerator.GetRandomEvenNumber();
+                        cardManager.setupCard(currentGridSize);
+                        doChangeState(GAMESTATES.SHOWALL);
+                        state = target;
+                    }
+                    break;
+                case GAMESTATES.SHOWALL:
+                    foreach (var item in cardManager.cards)
+                    {
+                        item.doRest();
+                    }
+                    yield return new WaitForSeconds(1f);
+                    foreach (var item in cardManager.cards)
+                    {
+                        item.openCard();
+                    }
+                    yield return new WaitForSeconds(1);
+                    foreach (var item in cardManager.cards)
+                    {
+                        item.doRest();
+                    }
                     doChangeState(GAMESTATES.READYFORINPUT);
-                    state = target;
                     break;
                 case GAMESTATES.READYFORINPUT:
                     grid.enabled = false;

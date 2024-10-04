@@ -18,6 +18,20 @@ namespace CardMatch_Gameplay
 
         }
 
+        public void enableCard(int NumberOfCards)
+        {
+
+            for (int i = 0; i < cards.Length; i++)
+            {
+                cards[i].gameObject.SetActive(i < NumberOfCards);
+            }
+
+           
+
+            // Shuffle the array of sprites to ensure random assignment (optional)
+         
+
+        }
         public void setupCard(int NumberOfCards) {
 
             for (int i = 0; i < cards.Length; i++)

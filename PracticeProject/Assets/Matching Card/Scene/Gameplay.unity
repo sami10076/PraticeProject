@@ -426,6 +426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &102847838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -651,6 +652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &141745805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,6 +954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &181614798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1268,6 +1271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &281293208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1569,6 +1573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &360093686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1961,6 +1966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &433720230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2201,6 +2207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &463967037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2350,6 +2357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &491750255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2590,6 +2598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &524707789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2830,6 +2839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &600683933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2979,6 +2989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &633642104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3679,6 +3690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &781735792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3985,6 +3997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &898474049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4134,6 +4147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &903818440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4283,6 +4297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &959963004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4806,6 +4821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1008430106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5622,6 +5638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1210944344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6044,6 +6061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1286591516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6345,6 +6363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1359834686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6570,6 +6589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1439313252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6719,6 +6739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1456196337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6868,6 +6889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1459008246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7176,6 +7198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1526514930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7496,6 +7519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1562928925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7968,6 +7992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1706194991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8198,6 +8223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1762051317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8893,6 +8919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1923421608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9042,6 +9069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &1926427803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9888,6 +9916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &2069707628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10541,6 +10570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 0}
+  cardState: 1
 --- !u!114 &2138796842
 MonoBehaviour:
   m_ObjectHideFlags: 0
