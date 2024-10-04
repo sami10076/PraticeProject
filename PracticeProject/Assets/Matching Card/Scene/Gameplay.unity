@@ -291,6 +291,7 @@ GameObject:
   - component: {fileID: 81320935}
   - component: {fileID: 81320937}
   - component: {fileID: 81320936}
+  - component: {fileID: 81320938}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -356,6 +357,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81320934}
   m_CullTransparentMesh: 1
+--- !u!114 &81320938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81320934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &102847835
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,6 +1133,7 @@ GameObject:
   - component: {fileID: 246639528}
   - component: {fileID: 246639530}
   - component: {fileID: 246639529}
+  - component: {fileID: 246639531}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -1183,6 +1199,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246639527}
   m_CullTransparentMesh: 1
+--- !u!114 &246639531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246639527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &281293205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,6 +1750,7 @@ GameObject:
   - component: {fileID: 387419587}
   - component: {fileID: 387419589}
   - component: {fileID: 387419588}
+  - component: {fileID: 387419590}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -1785,6 +1816,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387419586}
   m_CullTransparentMesh: 1
+--- !u!114 &387419590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387419586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &409261256
 GameObject:
   m_ObjectHideFlags: 0
@@ -2021,6 +2066,7 @@ GameObject:
   - component: {fileID: 449610855}
   - component: {fileID: 449610857}
   - component: {fileID: 449610856}
+  - component: {fileID: 449610858}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -2086,6 +2132,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449610854}
   m_CullTransparentMesh: 1
+--- !u!114 &449610858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449610854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &463967034
 GameObject:
   m_ObjectHideFlags: 0
@@ -2395,6 +2455,7 @@ GameObject:
   - component: {fileID: 492644340}
   - component: {fileID: 492644342}
   - component: {fileID: 492644341}
+  - component: {fileID: 492644343}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -2460,6 +2521,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492644339}
   m_CullTransparentMesh: 1
+--- !u!114 &492644343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492644339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &524707786
 GameObject:
   m_ObjectHideFlags: 0
@@ -2620,6 +2695,7 @@ GameObject:
   - component: {fileID: 588543416}
   - component: {fileID: 588543418}
   - component: {fileID: 588543417}
+  - component: {fileID: 588543419}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -2685,6 +2761,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588543415}
   m_CullTransparentMesh: 1
+--- !u!114 &588543419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588543415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &600683930
 GameObject:
   m_ObjectHideFlags: 0
@@ -3226,6 +3316,7 @@ GameObject:
   - component: {fileID: 745483764}
   - component: {fileID: 745483766}
   - component: {fileID: 745483765}
+  - component: {fileID: 745483767}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -3291,6 +3382,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745483763}
   m_CullTransparentMesh: 1
+--- !u!114 &745483767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745483763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &748897502
 GameObject:
   m_ObjectHideFlags: 0
@@ -4435,6 +4540,7 @@ GameObject:
   - component: {fileID: 981572350}
   - component: {fileID: 981572352}
   - component: {fileID: 981572351}
+  - component: {fileID: 981572353}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -4500,6 +4606,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981572349}
   m_CullTransparentMesh: 1
+--- !u!114 &981572353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981572349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1003110240
 GameObject:
   m_ObjectHideFlags: 0
@@ -4867,6 +4987,7 @@ GameObject:
   - component: {fileID: 1085376644}
   - component: {fileID: 1085376646}
   - component: {fileID: 1085376645}
+  - component: {fileID: 1085376647}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -4932,6 +5053,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085376643}
   m_CullTransparentMesh: 1
+--- !u!114 &1085376647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085376643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1096233716
 GameObject:
   m_ObjectHideFlags: 0
@@ -5018,6 +5153,7 @@ GameObject:
   - component: {fileID: 1110736262}
   - component: {fileID: 1110736264}
   - component: {fileID: 1110736263}
+  - component: {fileID: 1110736265}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -5083,6 +5219,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110736261}
   m_CullTransparentMesh: 1
+--- !u!114 &1110736265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110736261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1127244987
 GameObject:
   m_ObjectHideFlags: 0
@@ -5246,6 +5396,7 @@ GameObject:
   - component: {fileID: 1147309862}
   - component: {fileID: 1147309864}
   - component: {fileID: 1147309863}
+  - component: {fileID: 1147309865}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -5311,6 +5462,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147309861}
   m_CullTransparentMesh: 1
+--- !u!114 &1147309865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147309861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1154200320
 GameObject:
   m_ObjectHideFlags: 0
@@ -5322,6 +5487,7 @@ GameObject:
   - component: {fileID: 1154200321}
   - component: {fileID: 1154200323}
   - component: {fileID: 1154200322}
+  - component: {fileID: 1154200324}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -5387,6 +5553,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154200320}
   m_CullTransparentMesh: 1
+--- !u!114 &1154200324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154200320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1210944341
 GameObject:
   m_ObjectHideFlags: 0
@@ -5547,6 +5727,7 @@ GameObject:
   - component: {fileID: 1218054478}
   - component: {fileID: 1218054480}
   - component: {fileID: 1218054479}
+  - component: {fileID: 1218054481}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -5612,6 +5793,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218054477}
   m_CullTransparentMesh: 1
+--- !u!114 &1218054481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218054477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1234919067
 GameObject:
   m_ObjectHideFlags: 0
@@ -5623,6 +5818,7 @@ GameObject:
   - component: {fileID: 1234919068}
   - component: {fileID: 1234919070}
   - component: {fileID: 1234919069}
+  - component: {fileID: 1234919071}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -5688,6 +5884,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234919067}
   m_CullTransparentMesh: 1
+--- !u!114 &1234919071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234919067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1284942321
 GameObject:
   m_ObjectHideFlags: 0
@@ -5699,6 +5909,7 @@ GameObject:
   - component: {fileID: 1284942322}
   - component: {fileID: 1284942324}
   - component: {fileID: 1284942323}
+  - component: {fileID: 1284942325}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -5764,6 +5975,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284942321}
   m_CullTransparentMesh: 1
+--- !u!114 &1284942325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284942321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1286591513
 GameObject:
   m_ObjectHideFlags: 0
@@ -6748,6 +6973,7 @@ GameObject:
   - component: {fileID: 1481779245}
   - component: {fileID: 1481779247}
   - component: {fileID: 1481779246}
+  - component: {fileID: 1481779248}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -6813,6 +7039,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481779244}
   m_CullTransparentMesh: 1
+--- !u!114 &1481779248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481779244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1494171847
 GameObject:
   m_ObjectHideFlags: 0
@@ -7121,6 +7361,7 @@ GameObject:
   - component: {fileID: 1546723992}
   - component: {fileID: 1546723994}
   - component: {fileID: 1546723993}
+  - component: {fileID: 1546723995}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -7186,6 +7427,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546723991}
   m_CullTransparentMesh: 1
+--- !u!114 &1546723995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546723991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1562928922
 GameObject:
   m_ObjectHideFlags: 0
@@ -7578,6 +7833,7 @@ GameObject:
   - component: {fileID: 1705634221}
   - component: {fileID: 1705634223}
   - component: {fileID: 1705634222}
+  - component: {fileID: 1705634224}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -7643,6 +7899,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705634220}
   m_CullTransparentMesh: 1
+--- !u!114 &1705634224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705634220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1706194988
 GameObject:
   m_ObjectHideFlags: 0
@@ -8033,6 +8303,7 @@ GameObject:
   - component: {fileID: 1782798351}
   - component: {fileID: 1782798353}
   - component: {fileID: 1782798352}
+  - component: {fileID: 1782798354}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -8098,6 +8369,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782798350}
   m_CullTransparentMesh: 1
+--- !u!114 &1782798354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782798350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1817600681
 GameObject:
   m_ObjectHideFlags: 0
@@ -8109,6 +8394,7 @@ GameObject:
   - component: {fileID: 1817600682}
   - component: {fileID: 1817600684}
   - component: {fileID: 1817600683}
+  - component: {fileID: 1817600685}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -8174,6 +8460,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817600681}
   m_CullTransparentMesh: 1
+--- !u!114 &1817600685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817600681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1818081003
 GameObject:
   m_ObjectHideFlags: 0
@@ -8185,6 +8485,7 @@ GameObject:
   - component: {fileID: 1818081004}
   - component: {fileID: 1818081006}
   - component: {fileID: 1818081005}
+  - component: {fileID: 1818081007}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -8250,6 +8551,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818081003}
   m_CullTransparentMesh: 1
+--- !u!114 &1818081007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818081003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1851200631
 GameObject:
   m_ObjectHideFlags: 0
@@ -8261,6 +8576,7 @@ GameObject:
   - component: {fileID: 1851200632}
   - component: {fileID: 1851200634}
   - component: {fileID: 1851200633}
+  - component: {fileID: 1851200635}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -8326,6 +8642,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851200631}
   m_CullTransparentMesh: 1
+--- !u!114 &1851200635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851200631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1865793802
 GameObject:
   m_ObjectHideFlags: 0
@@ -8337,6 +8667,7 @@ GameObject:
   - component: {fileID: 1865793803}
   - component: {fileID: 1865793805}
   - component: {fileID: 1865793804}
+  - component: {fileID: 1865793806}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -8402,6 +8733,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865793802}
   m_CullTransparentMesh: 1
+--- !u!114 &1865793806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865793802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1912451706
 GameObject:
   m_ObjectHideFlags: 0
@@ -8413,6 +8758,7 @@ GameObject:
   - component: {fileID: 1912451707}
   - component: {fileID: 1912451709}
   - component: {fileID: 1912451708}
+  - component: {fileID: 1912451710}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -8478,6 +8824,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912451706}
   m_CullTransparentMesh: 1
+--- !u!114 &1912451710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912451706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1923421605
 GameObject:
   m_ObjectHideFlags: 0
@@ -8787,6 +9147,7 @@ GameObject:
   - component: {fileID: 1972317767}
   - component: {fileID: 1972317769}
   - component: {fileID: 1972317768}
+  - component: {fileID: 1972317770}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -8852,6 +9213,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972317766}
   m_CullTransparentMesh: 1
+--- !u!114 &1972317770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972317766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1975084807
 GameObject:
   m_ObjectHideFlags: 0
@@ -8964,6 +9339,7 @@ GameObject:
   - component: {fileID: 1975593420}
   - component: {fileID: 1975593422}
   - component: {fileID: 1975593421}
+  - component: {fileID: 1975593423}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -9029,6 +9405,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975593419}
   m_CullTransparentMesh: 1
+--- !u!114 &1975593423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975593419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &1978655740
 GameObject:
   m_ObjectHideFlags: 0
@@ -9040,6 +9430,7 @@ GameObject:
   - component: {fileID: 1978655741}
   - component: {fileID: 1978655743}
   - component: {fileID: 1978655742}
+  - component: {fileID: 1978655744}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -9105,6 +9496,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978655740}
   m_CullTransparentMesh: 1
+--- !u!114 &1978655744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978655740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &2011728924
 GameObject:
   m_ObjectHideFlags: 0
@@ -9192,6 +9597,7 @@ GameObject:
   - component: {fileID: 2026597628}
   - component: {fileID: 2026597630}
   - component: {fileID: 2026597629}
+  - component: {fileID: 2026597631}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -9257,6 +9663,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026597627}
   m_CullTransparentMesh: 1
+--- !u!114 &2026597631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026597627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &2030020869
 GameObject:
   m_ObjectHideFlags: 0
@@ -9743,6 +10163,7 @@ GameObject:
   - component: {fileID: 2107922713}
   - component: {fileID: 2107922715}
   - component: {fileID: 2107922714}
+  - component: {fileID: 2107922716}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -9808,6 +10229,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107922712}
   m_CullTransparentMesh: 1
+--- !u!114 &2107922716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107922712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &2118559579
 GameObject:
   m_ObjectHideFlags: 0
@@ -9971,6 +10406,7 @@ GameObject:
   - component: {fileID: 2126899808}
   - component: {fileID: 2126899810}
   - component: {fileID: 2126899809}
+  - component: {fileID: 2126899811}
   m_Layer: 5
   m_Name: CardImage
   m_TagString: Untagged
@@ -10036,6 +10472,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126899807}
   m_CullTransparentMesh: 1
+--- !u!114 &2126899811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126899807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374c63dd83c004677b5f6668f00f0e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 1
+  shakeMagnitude: 10
 --- !u!1 &2138796839
 GameObject:
   m_ObjectHideFlags: 0

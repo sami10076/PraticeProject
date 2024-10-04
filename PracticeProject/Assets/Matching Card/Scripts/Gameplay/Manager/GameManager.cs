@@ -93,8 +93,8 @@ namespace CardMatch_Gameplay
                  
                         }
                         else {
-                            card1.resetCard();
-                            card2.resetCard();
+                            card1.shakeAndReset();
+                            card2.shakeAndReset();
                             scoreManager.AddTurn(1);
                             SoundManager.instance.playsound(SoundManager.instance.wrong);
                             scoreManager.resetCombo();
@@ -104,7 +104,7 @@ namespace CardMatch_Gameplay
                     }
                     else {
                         CardClickListiner card1 = cardManager.getCard(FirstInputCard);
-                        card1.resetCard();
+                        card1.shakeAndReset();
                         scoreManager.AddTurn(1);
                         SoundManager.instance.playsound(SoundManager.instance.wrong);
                         scoreManager.resetCombo();

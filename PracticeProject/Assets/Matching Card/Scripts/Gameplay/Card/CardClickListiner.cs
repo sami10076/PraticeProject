@@ -29,6 +29,15 @@ namespace CardMatch_Gameplay{
             }
         }
 
+        public void shakeAndReset() {
+            if (cardImage != null && cardBlooker != null && CardSprite != null)
+            {
+
+                cardImage.GetComponent<SpriteShake>().ShakeSprite();
+                resetCard();
+            }
+
+        }
         public void resetCard() {
             Invoke("doRest",1);
         }
