@@ -30,6 +30,8 @@ namespace CardMatch_Gameplay
         private int FirstInputCard = -1;
         private int SecondInputCard = -1;
 
+        private bool hasMadeFirstMatch = false;
+
 
         #region state
         public void doChangeState(GAMESTATES target)
@@ -74,11 +76,19 @@ namespace CardMatch_Gameplay
                         CardClickListiner card2=cardManager.getCard(SecondInputCard);
                         if (card1.CardSprite == card2.CardSprite)
                         {
+
                             card1.turnOfCard();
                             card2.turnOfCard();
                             SoundManager.instance.stopalleffect();
                             SoundManager.instance.playsound(SoundManager.instance.cardMatch);
                             scoreManager.AddScore(1);
+                            if (!hasMadeFirstMatch)
+                            {
+                                hasMadeFirstMatch = true;
+                            }
+                            else {
+                                scoreManager.AddComnbo(1);
+                            }
                             Invoke("checkGameOver", 2);
                  
                         }
@@ -87,7 +97,8 @@ namespace CardMatch_Gameplay
                             card2.resetCard();
                             scoreManager.AddTurn(1);
                             SoundManager.instance.playsound(SoundManager.instance.wrong);
-
+                            scoreManager.resetCombo();
+                            hasMadeFirstMatch = false;
                         }
                     
                     }
@@ -96,6 +107,8 @@ namespace CardMatch_Gameplay
                         card1.resetCard();
                         scoreManager.AddTurn(1);
                         SoundManager.instance.playsound(SoundManager.instance.wrong);
+                        scoreManager.resetCombo();
+                        hasMadeFirstMatch = false;
                     }
                     doChangeState(GAMESTATES.READYFORINPUT);
                     state = target;

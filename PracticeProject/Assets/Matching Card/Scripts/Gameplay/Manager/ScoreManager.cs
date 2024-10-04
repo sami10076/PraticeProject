@@ -8,12 +8,17 @@ namespace CardMatch_Gameplay
     {
         [SerializeField] private Text scoreText = null;
         [SerializeField] private Text turnText = null;
+        [SerializeField] private Text comboText = null;
 
         private void OnEnable()
         {
             AddScore(0);
             AddTurn(0);
+            AddComnbo(0);
         }
+
+
+
 
 
 
@@ -26,6 +31,11 @@ namespace CardMatch_Gameplay
         {
             setTurn(getTurn() + target); ;
             turnText.text = getTurn() + "";
+        }
+        public void AddComnbo(int target)
+        {
+            setCombo(getCombo() + target); ;
+            comboText.text = getCombo() + "";
         }
 
         private int getScore() {
@@ -49,6 +59,25 @@ namespace CardMatch_Gameplay
 
             PlayerPrefs.SetInt("Turn", target);
             PlayerPrefs.Save();
+        }
+
+        private int getCombo()
+        {
+
+            return PlayerPrefs.GetInt("COMBO", 0);
+        }
+        private void setCombo(int target)
+        {
+
+            PlayerPrefs.SetInt("COMBO", target);
+            PlayerPrefs.Save();
+        }
+        public void resetCombo()
+        {
+
+            PlayerPrefs.SetInt("COMBO", 0);
+            PlayerPrefs.Save();
+            comboText.text = getCombo() + "";
         }
     }
 }
