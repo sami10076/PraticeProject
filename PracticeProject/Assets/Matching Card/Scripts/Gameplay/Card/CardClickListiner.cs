@@ -25,6 +25,7 @@ namespace CardMatch_Gameplay{
             if (cardState == CardState.CLOSE)
             {
                 GameManager.Instance.onCardInput(cardNumber);
+                SoundManager.instance.onCardClickSound();
             }
         }
 

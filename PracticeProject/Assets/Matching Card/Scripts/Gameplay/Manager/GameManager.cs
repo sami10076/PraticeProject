@@ -76,6 +76,8 @@ namespace CardMatch_Gameplay
                         {
                             card1.turnOfCard();
                             card2.turnOfCard();
+                            SoundManager.instance.stopalleffect();
+                            SoundManager.instance.playsound(SoundManager.instance.cardMatch);
                             scoreManager.AddScore(1);
                             Invoke("checkGameOver", 2);
                  
@@ -84,7 +86,7 @@ namespace CardMatch_Gameplay
                             card1.resetCard();
                             card2.resetCard();
                             scoreManager.AddTurn(1);
-
+                            SoundManager.instance.playsound(SoundManager.instance.wrong);
 
                         }
                     
@@ -93,7 +95,7 @@ namespace CardMatch_Gameplay
                         CardClickListiner card1 = cardManager.getCard(FirstInputCard);
                         card1.resetCard();
                         scoreManager.AddTurn(1);
-
+                        SoundManager.instance.playsound(SoundManager.instance.wrong);
                     }
                     doChangeState(GAMESTATES.READYFORINPUT);
                     state = target;
@@ -148,7 +150,7 @@ namespace CardMatch_Gameplay
         void checkGameOver() {
             if (!cardManager.isCardAvaiable())
             {
-
+                SoundManager.instance.playsound(SoundManager.instance.win);
                 doChangeState(GAMESTATES.START);
             }
         }
